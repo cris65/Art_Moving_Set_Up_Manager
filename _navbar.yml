@@ -1,5 +1,5 @@
-name: "Mywebsite"
-title: "My new website"
+name: "ITS Marco Polo AI project"
+title: "ITS Marco Polo AI project"
 type: inverse
 left:
   - text: "About me"
@@ -12,6 +12,8 @@ left:
          href: ./project1.html
        - text: "Project part 2"
          href: ./project2.html
+       - text: "AI vs Social"
+         href: ./aivssocial.html
   - text: "Contact"
     href: ./contact.html
 right:
