@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
   - [ ] - *BOTPRESS*
   - [ ] - *GITHUB*
 - [ ] - **AI for information**
-  - [ ] - *preparing a Bot whit the Course INFO*
+  - [X] - *preparing a Bot whit the Course INFO*
   - [ ] - *preparing a Bot who scan the ITS website*
 - [ ] - **AI for marketing purpose**
 	- [ ] - *collect the Bot to different channel ( whatsap - messenger)*
