@@ -20,8 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
   - [ ] - *preparing a Bot whit the Course INFO*
   - [ ] - *preparing a Bot who scan the ITS website*
 - [ ] - **AI for marketing purpose**
-	- [ ] - collect the Bot to different channel ( whatsap - messenger)
-	- [ ] - collect the Data from visitors to CRM
+	- [ ] - *collect the Bot to different channel ( whatsap - messenger)*
+	- [ ] - *collect the Data from visitors to CRM*
 - [ ] - **AI for instruction**
 - [ ] - **Defining how to collect DATA**
 - [ ] - **Defining how to reward Students**
