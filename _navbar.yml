@@ -8,10 +8,10 @@ left:
         href: ./aboutme.html
   - text: "Project"
     menu:
-       - text: "Project part 1"
-         href: ./project1.html
-       - text: "Project part 2"
-         href: ./project2.html
+       #- text: "Project part 1"
+         #href: ./project1.html
+      # - text: "Project part 2"
+        # href: ./project2.html
        - text: "AI Integrazione"
          href: ./aiintegrazione.html
        - text: "AI vs Social"
