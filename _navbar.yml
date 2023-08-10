@@ -1,5 +1,5 @@
-name: "ITS Marco Polo AI project"
-title: "ITS Marco Polo AI project"
+name: "ITS Marco Polo ART MOVING & SET UP MANAGER"
+title: "ART MOVING & SET UP MANAGER"
 type: inverse
 left:
   - text: "About me"
@@ -12,8 +12,12 @@ left:
          href: ./project1.html
        - text: "Project part 2"
          href: ./project2.html
+       - text: "AI Integrazione"
+         href: ./aiintegrazione.html
        - text: "AI vs Social"
          href: ./aivssocial.html
+  - text: "To Do"
+    href: ./todo.html
   - text: "Contact"
     href: ./contact.html
 right:

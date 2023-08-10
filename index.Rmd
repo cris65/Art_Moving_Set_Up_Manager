@@ -1,5 +1,5 @@
 ---
-title: "My website"
+title: "ART MOVING & SET UP MANAGER - AI Project"
 output: 
   html_document:
     toc: FALSE
@@ -7,21 +7,15 @@ output:
 
 
 
-
-**Welcome to my website!**
-
-
-# Getting started
-
-Click the links in the menu above to look around.
+**Welcome to ART MOVING & SET UP MANAGER - AI Project**
 
 
-# Notes
 
-This website is a collection of regular (R)Markdown document, so you can use all the usual formatting.
+# Note
 
-If you are new to R Markdown, you can learn more about it [on the R Markdown website](https://rmarkdown.rstudio.com/). 
+questo è il sito dove verranno inseriti i percorsi di sviluppo, idee e progressi relativi all'introduzione dell' Intelligenza Artificiale a supporto del corso ART MOVING & SET UP MANAGER.
+L'ideazione e lo sviluppo iniziale nascono dalle idee di Fabio Fonda e Cristiano Zane, che si occupa della gestione e definizione della parte ICT a supporto del corso, presso l'istituto ITS Marco Polo di Venezia
 
-I also have a discussion of R Markdown and reproducibility [on one of my course pages](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). You'll find additional links to potentially useful R Markdown (and Github) resources there.
+
 
 
