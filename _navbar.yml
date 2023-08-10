@@ -5,7 +5,7 @@ left:
   - text: "About me"
     menu:
       - text: "Learn more about me"
-        href: ./aboutme.html
+        #href: ./aboutme.html
   - text: "Project"
     menu:
        #- text: "Project part 1"
