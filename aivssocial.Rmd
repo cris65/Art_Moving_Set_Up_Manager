@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## CONTESTO GENERALE
 
-Nel contesto sempre più avanzato dell'istruzione e della formazione, l'integrazione dell'Intelligenza ArtificIAle **ia** come supporto informativo ha apportato una serie di vantaggi rivoluzionari. Questa sinergia tra tecnologia e istruzione ha creato un ambiente di apprendimento più efficiente, personalizzato e coinvolgente per gli allievi, i docenti e altri soggetti coinvolti.
+Nel contesto sempre più avanzato dell'istruzione e della formazione, l'integrazione dell'Intelligenza Artificiale **IA** come supporto informativo ha apportato una serie di vantaggi rivoluzionari. Questa sinergia tra tecnologia e istruzione ha creato un ambiente di apprendimento più efficiente, personalizzato e coinvolgente per gli allievi, i docenti e altri soggetti coinvolti.
 
 Uno dei principali vantaggi dell'utilizzo dell'**IA** è la capacità di fornire un accesso immediato a informazioni cruciali. Gli allievi possono ottenere rapidamente informazioni sugli orari delle lezioni, sugli eventi in programma e sui dettagli dei corsi. Questo risparmia tempo e sforzi, consentendo agli studenti di concentrarsi maggiormente sul processo di apprendimento effettivo.
 
