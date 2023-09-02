@@ -54,6 +54,12 @@ Questi fondamenti ci aiuteranno non solo a comprendere come funzionano i calcola
 
 Ricordate, l'informatica è molto di più che scrivere codice; è una potente abilità che ci aiuta a comprendere e risolvere una vasta gamma di problemi. Siate curiosi, esplorate e imparate, e sarete pronti a gestire e proteggere le opere d'arte più preziose del mondo!
 
+<<<<<<< HEAD
+=======
+Se avete domande o desiderate ulteriori esempi, non esitate a farle. Ci vediamo presto per continuare il nostro cammino nell'informatica per la logistica nell'arte!
+
+Certamente, includerò il CRM (Customer Relationship Management) e fornirò esempi di software più utilizzati o conosciuti per ciascuna categoria di strumenti:
+>>>>>>> main
 
 ## Scegliere gli Strumenti Adeguati per la Logistica nell'Arte
 
