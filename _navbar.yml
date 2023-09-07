@@ -12,6 +12,8 @@ left:
          #href: ./project1.html
        - text: "Lezione Introduttiva"
          href: ./lezione_introduttiva.html
+       - text: "ICT ed IA"
+         href: ./ict_ia.html        
        - text: "AI Integrazione"
          href: ./aiintegrazione.html
        - text: "AI vs Social"
