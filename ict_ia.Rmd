@@ -8,8 +8,6 @@ date: "2023-08-09"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## ICT ed intelligenza artificiale: raccogliere e gestire i dati.
-
 Signore e signori,
 
 Un saluto! È un piacere essere qui con voi oggi come vostro insegnante per questo illuminante viaggio nel mondo dell'ICT (Information and Communication Technology) e dell'Intelligenza Artificiale (IA) nel contesto della logistica nell'arte e nelle mostre.
@@ -26,6 +24,8 @@ Quindi, senza ulteriori indugi, immergiamoci nel coinvolgente mondo dell'ICT e d
 ## 1. Introduzione ai Dati nell'Arte e nelle Mostre: (2 minuti)
 
 Cominciamo con una panoramica. I dati
+
+
 I dati sono fondamentali nell'arte, nelle mostre e nella gestione dei musei. Ogni opera d'arte, ogni visitatore e ogni aspetto ambientale possono essere fonte di dati preziosi. Ma come possiamo raccoglierli in modo efficiente e sfruttarli appieno? 
 
 Qui oggi, entrano in gioco l'ICT e l'IA.
@@ -40,7 +40,7 @@ Nella nostra esplorazione dell'IA e dei Bot IA, vedremo come queste tecnologie a
 
 ## 2. Raccogliere Dati nell'Arte e nelle Mostre con Bot IA: (3 minuti)
 
-In passato, l'acquisizione di dati nell'ambito artistico e delle mostre spesso coinvolgeva processi manuali, come la compilazione di schede o mediante l'utilizzo di form online, come quelli offerti da Google Forms, da parte del personale o dei visitatori. Questi formulari richiedevano poi tempo e risorse considerevoli per essere completati e successivamente elaborati.
+In passato, l'acquisizione di dati nell'ambito artistico e delle mostre spesso coinvolgeva processi manuali, come la compilazione di schede o mediante l'utilizzo di form online, (tipo Google Forms) , da parte del personale o dei visitatori. Questi formulari richiedevano poi tempo e risorse considerevoli per essere completati e successivamente elaborati.
 
 Tuttavia, con l'introduzione dell IA, questo processo può essere semplificato e automatizzato in modo significativo. 
 
