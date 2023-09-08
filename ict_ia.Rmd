@@ -16,7 +16,7 @@ Permettetemi di presentarmi. Sono Cristiano Zane, e porto in questa classe un ba
 
 Oggi, ci immergiamo in un'interessante esplorazione di come la tecnologia, in particolare l'ICT e l'IA, stiano ridefinendo la logistica e la gestione dell'arte, delle mostre e dei musei. 
 
-Approfondiremo le applicazioni innovative di queste tecnologie e il loro impatto trasformativo in questo affascinante settore.
+Approfondiremo le applicazioni innovative di queste tecnologie che saranno il fulcro di questo nuovo corso di ICT sulla logistica dell'arte ed il loro impatto trasformativo in questo affascinante settore.
 
 Quindi, senza ulteriori indugi, immergiamoci nel coinvolgente mondo dell'ICT e dell'IA nella logistica dell'arte e nelle mostre!
 
@@ -100,3 +100,7 @@ In conclusione, l'ICT e l'IA stanno portando l'arte, le mostre e i musei in una 
 Grazie per la vostra attenzione.
 
 Se avete domande o desiderate ulteriori informazioni su come l'IA sta trasformando la raccolta e la gestione dei dati nell'arte e nelle mostre, non esitate a chiedere. Buona giornata!
+
+Riflessioni
+
+Credo dovremmo inserire anche un cenno alle nuove tecnologie : Blockchain NFT, e al fatto che il nostro Focus primario sarà quello di insegnargli a capire/analizzare gli strumenti da utilizzare e a saperli Utilizzare e prepararli ad essere operativi da subito nel mondo del lavoro, dove potranno portare innovazione .......
