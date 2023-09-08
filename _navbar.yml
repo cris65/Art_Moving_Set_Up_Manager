@@ -13,7 +13,9 @@ left:
        - text: "Lezione Introduttiva"
          href: ./lezione_introduttiva.html
        - text: "ICT ed IA"
-         href: ./ict_ia.html        
+         href: ./ict_ia.html
+       - text: "ICT ed IA esteso"
+         href: ./ict_ia_esteso.html 
        - text: "AI Integrazione"
          href: ./aiintegrazione.html
        - text: "AI vs Social"
