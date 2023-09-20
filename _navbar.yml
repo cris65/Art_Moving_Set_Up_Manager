@@ -12,6 +12,8 @@ left:
          #href: ./project1.html
        - text: "Lezione Introduttiva"
          href: ./lezione_introduttiva.html
+       - text: "Piano del Corso"
+         href: ./2023_2024_TITLEprogram.html
        - text: "Programma"
          href: ./2023_2024_program.html
        - text: "ICT ed IA"

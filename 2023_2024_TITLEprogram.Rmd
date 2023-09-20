@@ -1,0 +1,80 @@
+---
+title: "Piano del Corso 2023 / 2024"
+output: html_document
+date: "2023-09-20"
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Piano del Corso - Competenze Informatiche e Automazione Aziendale
+
+## Anno 1
+
+### Semestre 1: Competenze Informatiche Fondamentali (Lezioni 1-12)
+
+1. **Lezione 1: Introduzione alle Competenze Informatiche Fondamentali**
+2. **Lezione 2: Concetti di Base del Computer**
+3. **Lezione 3: Concetti Fondamentali della Rete**
+4. **Lezione 4: Elaborazione Testi**
+5. **Lezione 5: Foglio Elettronico**
+6. **Lezione 6: Collaborazione in Rete**
+7. **Lezione 7: Sicurezza Informatica**
+8. **Lezione 8: Strumenti di Presentazione**
+9. **Lezione 9: Introduzione alla Programmazione**
+10. **Lezione 10: Fondamenti della Logica di Programmazione**
+11. **Lezione 11: Introduzione a HTML e CSS**
+12. **Lezione 12: Concetti di Base del Cloud Computing**
+
+### Semestre 2: Programmazione e Automazione (Lezioni 13-24)
+
+13. **Lezione 13: Programmazione in Python**
+14. **Lezione 14: Utilizzo di R Markdown**
+15. **Lezione 15: Analisi dei Dati con R Studio**
+16. **Lezione 16: Creazione di un Sito Web con R Studio**
+17. **Lezione 17: Gestione dei Progetti Web con GitHub**
+18. **Lezione 18: Introduzione all'Automazione Aziendale**
+19. **Lezione 19: Utilizzo di Zapier per l'Automazione dei Processi**
+20. **Lezione 20: Integrazione di Strumenti di Automazione con CMS**
+21. **Lezione 21: Automazione dei Processi Aziendali**
+22. **Lezione 22: Introduzione ai Sistemi CRM**
+23. **Lezione 23: Implementazione di un Sistema CRM**
+24. **Lezione 24: Utilizzo Avanzato di un Sistema CRM**
+
+## Anno 2
+
+### Semestre 3: Cloud Computing e Sviluppo Web (Lezioni 25-36)
+
+25. **Lezione 25: Gestione dei Dati nel Cloud**
+26. **Lezione 26: Sicurezza dei Dati nel Cloud**
+27. **Lezione 27: Introduzione all'Intelligenza Artificiale in Ambito Aziendale**
+28. **Lezione 28: Sviluppo di Soluzioni di Intelligenza Artificiale**
+29. **Lezione 29: Progetto Pratico - Implementazione di un Flusso Aziendale Avanzato**
+30. **Lezione 30: Sicurezza Informatica Avanzata**
+31. **Lezione 31: Automazione dei Processi Avanzata**
+32. **Lezione 32: Introduzione all'Analisi dei Dati Aziendali**
+33. **Lezione 33: Analisi dei Dati Aziendali con Strumenti Avanzati**
+34. **Lezione 34: Introduzione alla Gestione dei Progetti Complessi**
+35. **Lezione 35: Gestione Avanzata di Progetti Web con Strumenti Collaborativi**
+36. **Lezione 36: Conclusioni e Certificazione Avanzata**
+
+### Semestre 4: Automazione Aziendale Avanzata e CRM (Lezioni 37-50)
+
+37. **Lezione 37: Implementazione di Intelligenza Artificiale nei Processi Aziendali**
+38. **Lezione 38: Sviluppo di Soluzioni AI Personalizzate**
+39. **Lezione 39: Progetto Pratico - Sviluppo di un'Applicazione AI Personalizzata**
+40. **Lezione 40: Monitoraggio e Ottimizzazione dei Processi Aziendali con AI**
+41. **Lezione 41: Introduzione a R Programming**
+42. **Lezione 42: Utilizzo di R per Analisi Statistiche**
+43. **Lezione 43: Creazione di Report Interattivi con R**
+44. **Lezione 44: Introduzione a GitHub e Controllo delle Versioni**
+45. **Lezione 45: Creazione di Repository su GitHub**
+46. **Lezione 46: Collaborazione su Progetti con GitHub**
+47. **Lezione 47: Creazione di un Sito Web con RStudio e R Markdown**
+48. **Lezione 48: Pubblicazione di un Sito Web Utilizzando GitHub Pages**
+49. **Lezione 49: Gestione dei Progetti Web con Metodologie Agili**
+50. **Lezione 50: Conclusioni e Certificazione Finale**
