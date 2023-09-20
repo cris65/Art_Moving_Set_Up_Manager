@@ -1,0 +1,215 @@
+---
+title: "Programma 2023 / 2024"
+output: html_document
+date: "2023-09-20"
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Preparazione per l'ICDL (Lezioni 1-8)
+
+**Lezione 1: Introduzione alle Competenze Informatiche Fondamentali**
+
+- ***Concetti:*** Questa lezione offre una panoramica dei principali componenti hardware di un computer, come la CPU, la RAM e l'unità di archiviazione. Inoltre, verranno introdotti i concetti fondamentali della programmazione.
+- ***Tecnologie:*** Nessuna tecnologia specifica in questa lezione.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire esercizi di identificazione dei componenti hardware di un computer e scrivere script Python semplici come esempio.
+
+**Lezione 2: Concetti di Base del Computer**
+
+- ***Concetti:*** Questa lezione si concentra sulle conoscenze di base riguardanti l'hardware del computer, il sistema operativo e la gestione dei file.
+- ***Tecnologie:*** Introduzione ai sistemi operativi come Windows, macOS o Linux.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire esercizi di gestione dei file, come la creazione di cartelle e la copia di file.
+
+
+**Lezione 3: Concetti Fondamentali della Rete**
+
+- ***Concetti:*** Questa lezione copre i principi delle reti, la navigazione web e la sicurezza online.
+- ***Tecnologie:*** Utilizzo di browser web come Chrome, Firefox o Edge.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire esercizi di navigazione web sicura e di ricerca di informazioni online.
+
+**Lezione 4: Elaborazione Testi**
+
+- ***Concetti:*** In questa lezione, si impara l'uso avanzato del software di elaborazione testi, inclusi concetti di formattazione e stili.
+- ***Tecnologie:*** Utilizzo di software di elaborazione testi come Microsoft Word o Google Docs.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare documenti formattati con titoli, elenchi e immagini.
+
+**Lezione 5: Foglio Elettronico**
+
+- ***Concetti:*** Questa lezione si concentra sulla creazione di fogli elettronici, formule e calcoli.
+- ***Tecnologie:*** Utilizzo di fogli elettronici come Microsoft Excel o Google Sheets.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare fogli di calcolo per eseguire calcoli automatizzati.
+
+**Lezione 6: Collaborazione in Rete**
+
+- ***Concetti:*** Si tratta di strumenti di collaborazione online e integrazione con sistemi CRM.
+- ***Tecnologie:*** Utilizzo di strumenti di collaborazione come Google Workspace (ex G Suite).
+- ***Esempi ed Esercizi:*** Gli studenti possono condividere e modificare collaborativamente un documento su Google Docs e aggiungere un contatto CRM.
+
+**Lezione 7: Sicurezza Informatica**
+
+- ***Concetti:*** Questa lezione copre i principi di base della sicurezza informatica e la protezione dei dati.
+- ***Tecnologie:*** Nessuna tecnologia specifica in questa lezione.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire esercizi di creazione di password sicure e riconoscimento di email di phishing.
+
+**Lezione 8: Strumenti di Presentazione**
+
+- ***Concetti:*** In questa lezione, gli studenti imparano a creare presentazioni efficaci e introdurre l'automazione delle presentazioni.
+- ***Tecnologie:*** Utilizzo di strumenti di presentazione come Microsoft PowerPoint o Google Slides.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare una presentazione con diapositive, aggiungere transizioni e animazioni.
+
+## Parte 2: Programmazione e Automazione (Lezioni 9-12)
+
+**Lezione 9: Conoscenza di Base della Programmazione**
+
+- ***Concetti:*** Questa lezione introduce i concetti fondamentali di programmazione, inclusi HTML, CSS, JavaScript, Python e la struttura di base di un programma.
+- ***Tecnologie:*** Utilizzo di ambienti di sviluppo come Visual Studio Code.
+- ***Esempi ed Esercizi:*** Gli studenti possono scrivere script HTML e CSS per creare una pagina web semplice.
+
+**Lezione 10: Introduzione all'Automazione Aziendale**
+
+- ***Concetti:*** Questa lezione introduce l'automazione aziendale, le API e la connessione di applicazioni aziendali.
+- ***Tecnologie:*** Esplorazione di strumenti di automazione come Zapier.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un flusso di lavoro automatizzato utilizzando Zapier per collegare due applicazioni.
+
+**Lezione 11: Utilizzo di Zapier per l'Automazione dei Processi**
+
+- ***Concetti:*** Questa lezione si concentra sull'uso avanzato di Zapier per l'automazione dei processi, inclusi trigger, action, zaps e scripting avanzato.
+- ***Tecnologie:*** Utilizzo di Zapier per creare flussi di lavoro complessi.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare zaps avanzati che automatizzano compiti specifici.
+
+**Lezione 12: Integrazione di Strumenti di Automazione con CMS**
+
+- ***Concetti:*** In questa lezione, gli studenti apprendono come integrare strumenti di automazione con CMS (Content Management System) e gestire i dati aziendali.
+- ***Tecnologie:*** Utilizzo di CMS come WordPress.
+- ***Esempi ed Esercizi:*** Gli studenti possono configurare un flusso di lavoro che automatizza la pubblicazione di contenuti su un sito web WordPress.
+
+## Parte 3: Cloud Computing (Lezioni 13-14)
+
+**Lezione 13: Cloud Computing e Servizi Cloud**
+
+- ***Concetti:*** Questa lezione introduce i concetti di cloud computing, vantaggi e applicazioni aziendali.
+- ***Tecnologie:*** Esplorazione di provider di servizi cloud come Amazon Web Services (AWS) o Microsoft Azure.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un account su un servizio cloud, ad esempio AWS, e comprendere le basi della gestione delle risorse nel cloud.
+
+**Lezione 14: Gestione dei Dati nel Cloud**
+
+- ***Concetti:*** Questa lezione si concentra sulla gestione dei dati nel cloud, inclusa l'archiviazione, la sicurezza dei dati e i servizi di cloud storage.
+- ***Tecnologie:*** Utilizzo di servizi di cloud storage come Amazon S3 o Google Cloud Storage.
+- ***Esempi ed Esercizi:*** Gli studenti possono caricare, archiviare e condividere file utilizzando servizi di cloud storage.
+
+## Parte 4: Bot AI e Intelligenza Artificiale (Lezioni 15-16)
+
+**Lezione 15: Creazione di Bot e Intelligenza Artificiale (AI)**
+
+- ***Concetti:*** Questa lezione introduce la creazione di bot e l'intelligenza artificiale (AI), con un focus su chatbot e machine learning.
+- ***Tecnologie:*** Utilizzo di framework per chatbot come Dialogflow.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un chatbot di base utilizzando Dialogflow e implementare funzionalità di risposta automatica.
+
+**Lezione 16: Implementazione di Bot e Intelligenza Artificiale (AI) nei Processi Aziendali**
+
+- ***Concetti:*** Questa lezione si concentra sull'implementazione di bot avanzati e sulle applicazioni pratiche dell'AI nei processi aziendali.
+- ***Tecnologie:*** Implementazione di bot avanzati e applicazioni AI personalizzate.
+- ***Esempi ed Esercizi:*** Gli studenti possono sviluppare e integrare un sistema di assistenza clienti basato su chatbot con analisi automatizzata dei dati aziendali.
+
+## Parte 5: Programmazione Avanzata e Sviluppo Web (Lezioni 17-20)
+
+**Lezione 17: Introduzione a R Markdown e Creazione di Documenti Interattivi**
+
+- ***Concetti:*** Questa lezione introduce R Markdown e la creazione di documenti interattivi, coprendo la sintassi di R Markdown e la creazione di documenti HTML, PDF e interattivi.
+- ***Tecnologie:*** Utilizzo di R Studio per creare documenti R Markdown.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un documento interattivo che contiene testo formattato, grafici e collegamenti.
+
+**Lezione 18: Analisi dei Dati con R Studio**
+
+- ***Concetti:*** In questa lezione, gli studenti apprendono come importare, manipolare e visualizzare dati utilizzando R Studio.
+- ***Tecnologie:*** Utilizzo di R Studio per analizzare dati e creare visualizzazioni.
+- ***Esempi ed Esercizi:*** Gli studenti possono importare un set di dati, eseguire analisi descrittive e creare grafici informativi.
+
+**Lezione 19: Creazione di un Sito Web con R Studio**
+
+- ***Concetti:*** Questa lezione si concentra sullo sviluppo di un sito web utilizzando R Studio e R Markdown, coprendo la struttura di base di un sito web e la creazione di pagine web.
+- ***Tecnologie:*** Utilizzo di R Studio per sviluppare un sito web.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un sito web di base con pagine informative.
+
+## Parte 6: Gestione Avanzata di Progetti Web (Lezione 21)
+
+**Lezione 20: Gestione dei Progetti Web con GitHub**
+
+- ***Concetti:*** Questa lezione tratta della collaborazione su progetti web e del versionamento di siti web utilizzando GitHub.
+- ***Tecnologie:*** Utilizzo di GitHub come piattaforma di hosting e versionamento.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un repository su GitHub, collaborare su un progetto web e gestire le versioni del sito.
+
+## Parte 7: CRM (Lezioni 22-24)
+
+**Lezione 21: Introduzione ai Sistemi CRM**
+
+- ***Concetti:*** Questa lezione introduce i concetti di base dei sistemi CRM, inclusi i vantaggi aziendali.
+- ***Tecnologie:*** Introduzione ai software CRM come Salesforce o HubSpot.
+- ***Esempi ed Esercizi:*** Gli studenti possono esplorare le funzionalità di un sistema CRM e comprendere come può migliorare la gestione dei clienti.
+
+**Lezione 22: Implementazione di un Sistema CRM**
+
+- ***Concetti:*** In questa lezione, gli studenti apprendono come implementare un sistema CRM, gestire i dati dei clienti e automatizzare i processi di vendita.
+- ***Tecnologie:*** Utilizzo di un sistema CRM selezionato.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un profilo cliente nel sistema CRM e automatizzare il processo di acquisizione dei lead.
+
+**Lezione 23: Utilizzo Avanzato di un Sistema CRM**
+
+- ***Concetti:*** Questa lezione si concentra sull'uso avanzato di un sistema CRM, tra cui l'analisi dei dati dei clienti e la gestione delle relazioni con i clienti.
+- ***Tecnologie:*** Utilizzo avanzato del sistema CRM e strumenti di analisi dei dati.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire analisi dei dati dei clienti e creare report avanzati.
+
+
+## Parte 8: Automazione Aziendale Avanzata (Lezioni 24-30)
+
+**Lezione 24: Automazione dei Processi Aziendali**
+
+- ***Concetti:*** Questa lezione copre flussi di lavoro automatizzati, strumenti avanzati di automazione e l'introduzione all'intelligenza artificiale in ambito aziendale.
+- ***Tecnologie:*** Esplorazione di strumenti di automazione avanzata.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un flusso di lavoro aziendale automatizzato utilizzando strumenti avanzati.
+
+
+**Lezione 25: Sicurezza dei Dati nel Cloud**
+
+- ***Concetti:*** Questa lezione si concentra sulla protezione dei dati nel cloud, inclusa la protezione dei dati sensibili, la conformità alle normative e le best practice.
+- ***Tecnologie:*** Utilizzo di strumenti di sicurezza cloud e principi di sicurezza informatica.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire esercizi di configurazione di politiche di sicurezza nel cloud.
+
+**Lezione 26: Monitoraggio e Ottimizzazione dei Processi**
+
+- ***Concetti:*** Questa lezione copre l'analisi dei dati aziendali, il miglioramento continuo dei processi e l'ottimizzazione delle risorse.
+- ***Tecnologie:*** Utilizzo di strumenti di analisi dei dati aziendali.
+- ***Esempi ed Esercizi:*** Gli studenti possono analizzare dati aziendali reali per identificare opportunità di miglioramento.
+
+**Lezione 27: Introduzione all'Intelligenza Artificiale in Ambito Aziendale**
+
+- ***Concetti:*** Questa lezione introduce l'intelligenza artificiale (AI) in ambito aziendale, con applicazioni pratiche e vantaggi.
+- ***Tecnologie:*** Introduzione ai framework di machine learning.
+- ***Esempi ed Esercizi:*** Gli studenti possono esplorare casi d'uso aziendali per l'AI e comprendere le potenzialità della tecnologia.
+
+**Lezione 28: Sviluppo di Soluzioni di Intelligenza Artificiale**
+
+- ***Concetti:*** In questa lezione, gli studenti apprendono come sviluppare soluzioni di intelligenza artificiale, compresi i modelli AI personalizzati e l'integrazione con i processi aziendali.
+- ***Tecnologie:*** Utilizzo di framework di sviluppo AI come TensorFlow o PyTorch.
+- ***Esempi ed Esercizi:*** Gli studenti possono creare un modello AI personalizzato per risolvere un problema aziendale specifico..
+
+**Lezione 29: Progetto Pratico Implementazione di un Flusso Aziendale Avanzato**
+
+- ***Concetti:*** In questa lezione, gli studenti applicano tutte le competenze acquisite per sviluppare e implementare un flusso di lavoro aziendale avanzato.
+- ***Tecnologie:*** Utilizzo di strumenti, tecnologie e soluzioni apprese nel corso.
+- ***Esempi ed Esercizi:*** Gli studenti devono affrontare un progetto pratico che coinvolge l'automazione avanzata, l'AI e la gestione dei dati.
+
+
+**Lezione 30: Conclusioni e Certificazione**
+
+- ***Concetti:*** Questa lezione rappresenta la conclusione del corso, con una revisione delle competenze acquisite e la preparazione all'esame finale.
+- ***Tecnologie:*** Revisione delle tecnologie utilizzate nel corso.
+- ***Esempi ed Esercizi:*** Gli studenti possono eseguire un esame finale per valutare le loro competenze e ottenere una certificazione.
+
+Questo piano di corso dettagliato copre le competenze e le conoscenze necessarie in diverse aree, dalla programmazione all'automazione aziendale, all'intelligenza artificiale, alla gestione dei progetti web e molto altro.
+Ogni lezione è progettata per fornire una comprensione approfondita dei concetti e delle tecnologie pertinenti, insieme a esempi ed esercizi pratici.

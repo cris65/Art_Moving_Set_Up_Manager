@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+<meta name="date" content="2023-09-20" />
+
+<title>Programma 2023 / 2024</title>
+
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">ART MOVING & SET UP MANAGER</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About me
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Learn more about me</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Project
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./lezione_introduttiva.html">Lezione Introduttiva</a>
+    </li>
+    <li>
+      <a href="./2023_2024_program.html">Programma</a>
+    </li>
+    <li>
+      <a href="./ict_ia.html">ICT ed IA</a>
+    </li>
+    <li>
+      <a href="./ict_ia_esteso.html">ICT ed IA esteso</a>
+    </li>
+    <li>
+      <a href="./aiintegrazione.html">AI Integrazione</a>
+    </li>
+    <li>
+      <a href="./aivssocial.html">AI vs Social</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./todo.html">To Do</a>
+</li>
+<li>
+  <a href="./contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://cris65.github.io/mywebsite2/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Programma 2023 / 2024</h1>
+<h4 class="date">2023-09-20</h4>
+
+</div>
+
+
+<div id="preparazione-per-licdl-lezioni-1-8" class="section level2">
+<h2>Preparazione per l’ICDL (Lezioni 1-8)</h2>
+<p><strong>Lezione 1: Introduzione alle Competenze Informatiche
+Fondamentali</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione offre una
+panoramica dei principali componenti hardware di un computer, come la
+CPU, la RAM e l’unità di archiviazione. Inoltre, verranno introdotti i
+concetti fondamentali della programmazione.</li>
+<li><strong><em>Tecnologie:</em></strong> Nessuna tecnologia specifica
+in questa lezione.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire esercizi di identificazione dei componenti hardware di un
+computer e scrivere script Python semplici come esempio.</li>
+</ul>
+<p><strong>Lezione 2: Concetti di Base del Computer</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sulle conoscenze di base riguardanti l’hardware del computer, il sistema
+operativo e la gestione dei file.</li>
+<li><strong><em>Tecnologie:</em></strong> Introduzione ai sistemi
+operativi come Windows, macOS o Linux.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire esercizi di gestione dei file, come la creazione di cartelle e
+la copia di file.</li>
+</ul>
+<p><strong>Lezione 3: Concetti Fondamentali della Rete</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione copre i principi
+delle reti, la navigazione web e la sicurezza online.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di browser web come
+Chrome, Firefox o Edge.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire esercizi di navigazione web sicura e di ricerca di informazioni
+online.</li>
+</ul>
+<p><strong>Lezione 4: Elaborazione Testi</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, si impara
+l’uso avanzato del software di elaborazione testi, inclusi concetti di
+formattazione e stili.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di software di
+elaborazione testi come Microsoft Word o Google Docs.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare documenti formattati con titoli, elenchi e immagini.</li>
+</ul>
+<p><strong>Lezione 5: Foglio Elettronico</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sulla creazione di fogli elettronici, formule e calcoli.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di fogli elettronici
+come Microsoft Excel o Google Sheets.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare fogli di calcolo per eseguire calcoli automatizzati.</li>
+</ul>
+<p><strong>Lezione 6: Collaborazione in Rete</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Si tratta di strumenti di
+collaborazione online e integrazione con sistemi CRM.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di strumenti di
+collaborazione come Google Workspace (ex G Suite).</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+condividere e modificare collaborativamente un documento su Google Docs
+e aggiungere un contatto CRM.</li>
+</ul>
+<p><strong>Lezione 7: Sicurezza Informatica</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione copre i principi
+di base della sicurezza informatica e la protezione dei dati.</li>
+<li><strong><em>Tecnologie:</em></strong> Nessuna tecnologia specifica
+in questa lezione.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire esercizi di creazione di password sicure e riconoscimento di
+email di phishing.</li>
+</ul>
+<p><strong>Lezione 8: Strumenti di Presentazione</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+imparano a creare presentazioni efficaci e introdurre l’automazione
+delle presentazioni.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di strumenti di
+presentazione come Microsoft PowerPoint o Google Slides.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare una presentazione con diapositive, aggiungere transizioni e
+animazioni.</li>
+</ul>
+</div>
+<div id="parte-2-programmazione-e-automazione-lezioni-9-12"
+class="section level2">
+<h2>Parte 2: Programmazione e Automazione (Lezioni 9-12)</h2>
+<p><strong>Lezione 9: Conoscenza di Base della
+Programmazione</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce i
+concetti fondamentali di programmazione, inclusi HTML, CSS, JavaScript,
+Python e la struttura di base di un programma.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di ambienti di
+sviluppo come Visual Studio Code.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+scrivere script HTML e CSS per creare una pagina web semplice.</li>
+</ul>
+<p><strong>Lezione 10: Introduzione all’Automazione
+Aziendale</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce
+l’automazione aziendale, le API e la connessione di applicazioni
+aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Esplorazione di strumenti di
+automazione come Zapier.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un flusso di lavoro automatizzato utilizzando Zapier per
+collegare due applicazioni.</li>
+</ul>
+<p><strong>Lezione 11: Utilizzo di Zapier per l’Automazione dei
+Processi</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sull’uso avanzato di Zapier per l’automazione dei processi, inclusi
+trigger, action, zaps e scripting avanzato.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di Zapier per creare
+flussi di lavoro complessi.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare zaps avanzati che automatizzano compiti specifici.</li>
+</ul>
+<p><strong>Lezione 12: Integrazione di Strumenti di Automazione con
+CMS</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+apprendono come integrare strumenti di automazione con CMS (Content
+Management System) e gestire i dati aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di CMS come
+WordPress.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+configurare un flusso di lavoro che automatizza la pubblicazione di
+contenuti su un sito web WordPress.</li>
+</ul>
+</div>
+<div id="parte-3-cloud-computing-lezioni-13-14" class="section level2">
+<h2>Parte 3: Cloud Computing (Lezioni 13-14)</h2>
+<p><strong>Lezione 13: Cloud Computing e Servizi Cloud</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce i
+concetti di cloud computing, vantaggi e applicazioni aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Esplorazione di provider di
+servizi cloud come Amazon Web Services (AWS) o Microsoft Azure.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un account su un servizio cloud, ad esempio AWS, e comprendere le
+basi della gestione delle risorse nel cloud.</li>
+</ul>
+<p><strong>Lezione 14: Gestione dei Dati nel Cloud</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sulla gestione dei dati nel cloud, inclusa l’archiviazione, la sicurezza
+dei dati e i servizi di cloud storage.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di servizi di cloud
+storage come Amazon S3 o Google Cloud Storage.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+caricare, archiviare e condividere file utilizzando servizi di cloud
+storage.</li>
+</ul>
+</div>
+<div id="parte-4-bot-ai-e-intelligenza-artificiale-lezioni-15-16"
+class="section level2">
+<h2>Parte 4: Bot AI e Intelligenza Artificiale (Lezioni 15-16)</h2>
+<p><strong>Lezione 15: Creazione di Bot e Intelligenza Artificiale
+(AI)</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce la
+creazione di bot e l’intelligenza artificiale (AI), con un focus su
+chatbot e machine learning.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di framework per
+chatbot come Dialogflow.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un chatbot di base utilizzando Dialogflow e implementare
+funzionalità di risposta automatica.</li>
+</ul>
+<p><strong>Lezione 16: Implementazione di Bot e Intelligenza Artificiale
+(AI) nei Processi Aziendali</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sull’implementazione di bot avanzati e sulle applicazioni pratiche
+dell’AI nei processi aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Implementazione di bot
+avanzati e applicazioni AI personalizzate.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+sviluppare e integrare un sistema di assistenza clienti basato su
+chatbot con analisi automatizzata dei dati aziendali.</li>
+</ul>
+</div>
+<div id="parte-5-programmazione-avanzata-e-sviluppo-web-lezioni-17-20"
+class="section level2">
+<h2>Parte 5: Programmazione Avanzata e Sviluppo Web (Lezioni 17-20)</h2>
+<p><strong>Lezione 17: Introduzione a R Markdown e Creazione di
+Documenti Interattivi</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce R
+Markdown e la creazione di documenti interattivi, coprendo la sintassi
+di R Markdown e la creazione di documenti HTML, PDF e interattivi.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di R Studio per
+creare documenti R Markdown.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un documento interattivo che contiene testo formattato, grafici e
+collegamenti.</li>
+</ul>
+<p><strong>Lezione 18: Analisi dei Dati con R Studio</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+apprendono come importare, manipolare e visualizzare dati utilizzando R
+Studio.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di R Studio per
+analizzare dati e creare visualizzazioni.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+importare un set di dati, eseguire analisi descrittive e creare grafici
+informativi.</li>
+</ul>
+<p><strong>Lezione 19: Creazione di un Sito Web con R
+Studio</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sullo sviluppo di un sito web utilizzando R Studio e R Markdown,
+coprendo la struttura di base di un sito web e la creazione di pagine
+web.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di R Studio per
+sviluppare un sito web.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un sito web di base con pagine informative.</li>
+</ul>
+</div>
+<div id="parte-6-gestione-avanzata-di-progetti-web-lezione-21"
+class="section level2">
+<h2>Parte 6: Gestione Avanzata di Progetti Web (Lezione 21)</h2>
+<p><strong>Lezione 20: Gestione dei Progetti Web con GitHub</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione tratta della
+collaborazione su progetti web e del versionamento di siti web
+utilizzando GitHub.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di GitHub come
+piattaforma di hosting e versionamento.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un repository su GitHub, collaborare su un progetto web e gestire
+le versioni del sito.</li>
+</ul>
+</div>
+<div id="parte-7-crm-lezioni-22-24" class="section level2">
+<h2>Parte 7: CRM (Lezioni 22-24)</h2>
+<p><strong>Lezione 21: Introduzione ai Sistemi CRM</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce i
+concetti di base dei sistemi CRM, inclusi i vantaggi aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Introduzione ai software CRM
+come Salesforce o HubSpot.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+esplorare le funzionalità di un sistema CRM e comprendere come può
+migliorare la gestione dei clienti.</li>
+</ul>
+<p><strong>Lezione 22: Implementazione di un Sistema CRM</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+apprendono come implementare un sistema CRM, gestire i dati dei clienti
+e automatizzare i processi di vendita.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di un sistema CRM
+selezionato.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un profilo cliente nel sistema CRM e automatizzare il processo di
+acquisizione dei lead.</li>
+</ul>
+<p><strong>Lezione 23: Utilizzo Avanzato di un Sistema CRM</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sull’uso avanzato di un sistema CRM, tra cui l’analisi dei dati dei
+clienti e la gestione delle relazioni con i clienti.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo avanzato del sistema
+CRM e strumenti di analisi dei dati.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire analisi dei dati dei clienti e creare report avanzati.</li>
+</ul>
+</div>
+<div id="parte-8-automazione-aziendale-avanzata-lezioni-24-30"
+class="section level2">
+<h2>Parte 8: Automazione Aziendale Avanzata (Lezioni 24-30)</h2>
+<p><strong>Lezione 24: Automazione dei Processi Aziendali</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione copre flussi di
+lavoro automatizzati, strumenti avanzati di automazione e l’introduzione
+all’intelligenza artificiale in ambito aziendale.</li>
+<li><strong><em>Tecnologie:</em></strong> Esplorazione di strumenti di
+automazione avanzata.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un flusso di lavoro aziendale automatizzato utilizzando strumenti
+avanzati.</li>
+</ul>
+<p><strong>Lezione 25: Sicurezza dei Dati nel Cloud</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione si concentra
+sulla protezione dei dati nel cloud, inclusa la protezione dei dati
+sensibili, la conformità alle normative e le best practice.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di strumenti di
+sicurezza cloud e principi di sicurezza informatica.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire esercizi di configurazione di politiche di sicurezza nel
+cloud.</li>
+</ul>
+<p><strong>Lezione 26: Monitoraggio e Ottimizzazione dei
+Processi</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione copre l’analisi
+dei dati aziendali, il miglioramento continuo dei processi e
+l’ottimizzazione delle risorse.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di strumenti di
+analisi dei dati aziendali.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+analizzare dati aziendali reali per identificare opportunità di
+miglioramento.</li>
+</ul>
+<p><strong>Lezione 27: Introduzione all’Intelligenza Artificiale in
+Ambito Aziendale</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione introduce
+l’intelligenza artificiale (AI) in ambito aziendale, con applicazioni
+pratiche e vantaggi.</li>
+<li><strong><em>Tecnologie:</em></strong> Introduzione ai framework di
+machine learning.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+esplorare casi d’uso aziendali per l’AI e comprendere le potenzialità
+della tecnologia.</li>
+</ul>
+<p><strong>Lezione 28: Sviluppo di Soluzioni di Intelligenza
+Artificiale</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+apprendono come sviluppare soluzioni di intelligenza artificiale,
+compresi i modelli AI personalizzati e l’integrazione con i processi
+aziendali.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di framework di
+sviluppo AI come TensorFlow o PyTorch.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+creare un modello AI personalizzato per risolvere un problema aziendale
+specifico..</li>
+</ul>
+<p><strong>Lezione 29: Progetto Pratico Implementazione di un Flusso
+Aziendale Avanzato</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> In questa lezione, gli studenti
+applicano tutte le competenze acquisite per sviluppare e implementare un
+flusso di lavoro aziendale avanzato.</li>
+<li><strong><em>Tecnologie:</em></strong> Utilizzo di strumenti,
+tecnologie e soluzioni apprese nel corso.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti devono
+affrontare un progetto pratico che coinvolge l’automazione avanzata,
+l’AI e la gestione dei dati.</li>
+</ul>
+<p><strong>Lezione 30: Conclusioni e Certificazione</strong></p>
+<ul>
+<li><strong><em>Concetti:</em></strong> Questa lezione rappresenta la
+conclusione del corso, con una revisione delle competenze acquisite e la
+preparazione all’esame finale.</li>
+<li><strong><em>Tecnologie:</em></strong> Revisione delle tecnologie
+utilizzate nel corso.</li>
+<li><strong><em>Esempi ed Esercizi:</em></strong> Gli studenti possono
+eseguire un esame finale per valutare le loro competenze e ottenere una
+certificazione.</li>
+</ul>
+<p>Questo piano di corso dettagliato copre le competenze e le conoscenze
+necessarie in diverse aree, dalla programmazione all’automazione
+aziendale, all’intelligenza artificiale, alla gestione dei progetti web
+e molto altro. Ogni lezione è progettata per fornire una comprensione
+approfondita dei concetti e delle tecnologie pertinenti, insieme a
+esempi ed esercizi pratici.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
